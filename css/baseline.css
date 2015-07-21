@@ -1,0 +1,91 @@
+/*
+   Author: Akram Taghavi-Burris
+
+   File Name: baseline.css
+ 
+   Created: June 10, 2014
+   Last Updated: June 10, 2014
+   
+   BASED ON: http://drewish.com/tools/vertical-rhythm (baseline calculator) 
+*/
+
+/*==================== THE BASICS ====================*/
+/* the following sets the default font size for the entire document */
+html{
+    font-size: 16px; /* roughly 12pts */
+}
+
+body{
+    font-size: 1em; /* 16px */
+    line-height: 1.5em; /* 24 px */
+    font-family: sans-serif;
+}
+
+/*==================== THE FONT SIZES ====================*/
+
+p{
+    font-size: 1em; /* 16px */
+    line-height: 1.5000em; /* 24px */
+    margin-top: 0em;
+    margin-bottom: 1.5000em; /* space after each paragraph */
+}
+
+h1{
+    font-size: 1.7500em; /* 28px */
+    line-height: 1.7143em; /* 48px */
+    margin-top: 0.8571em; /* space before */
+    margin-bottom: 0;
+}
+
+h2{
+    font-size: 1.3750em; /* 22px */
+    line-height: 1.0909em; /* 24px */
+    margin-top: 1.0909em; /* space before */ 
+    margin-bottom: 0;
+}
+
+h3{
+    font-size: 1.1250em; /* 18px */
+    line-height: 1.3333em; /* 24px */
+    margin-top: 1.3333em; /* space before */
+    margin-bottom: 0;
+}
+
+h4{
+    /* h4 is usually the same size of the default text, only italic */
+    font-size: 1.0000em; /* 16px */
+    line-height: 1.5000em; /* 24px */
+    margin-top: 1.5000em;  /* space before */
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+h5{
+    font-size: 0.8750em; /* 14px */
+    line-height: 1.7143em; /* 24px */
+    margin-top: 1.7143em;  
+    margin-bottom: 0em;
+}
+
+h6{
+    font-size: 0.7500em; /* 12px */
+    line-height: 2.0000em; /* 24px */
+    margin-top: 2.0000em;  
+    margin-bottom: 0em;
+}
+
+
+/*==================== Media Queries ====================*/
+
+/* depending on your font choices you may need to increase or decrease font sizes 
+   slightly as the screen resolution changes for better readability. */
+
+/*-------------------- Smartphones (portrait and landscape) --------------------*/
+@media only screen 
+and (min-width : 0px) 
+and (max-width : 767px) {
+    body{
+        /* here we increase the base font size on a phone to 18px from the standard 16px */
+        font-size: 1.125em;
+    }
+}

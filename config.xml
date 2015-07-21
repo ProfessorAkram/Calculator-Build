@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+
+<!-- config.xml reference https://build.phonegap.com/docs/config.xml -->
+<widget xmlns       ="http://www.w3c.org/ns/widgets" 
+        xmlns:gap   ="http://phonegap.com/ns/1.0"
+        id          ="com.phonegap.hellworld"
+        version     ="1.0.0">
+    
+    <name>My Calculator</name>
+    
+    <description>
+        Basic calculator app built using HTML5, CSS, JQuery and PhoneGap.
+    </description>
+    
+    <author href="http://www.akramsideas.com/portfolio" email="akram@akramsideas.com">
+        Akram Taghavi-Burris
+    </author>
+    
+<!-- No permissions added to app. Internet permission will still work. -->    
+    <prefernce name="premissions" value="none" />
+        
+<!-- Define app icon for each platform -->
+    <icon src="imgs/calc-icon.png" />
+    <icon src="imgs/calc-icon.png"  gap:platfrom = "android" gap:qualifier ="ldpi" />
+    <icon src="imgs/calc-icon.png"  gap:platfrom = "android" gap:qualifier ="mdpi" />    
+    <icon src="imgs/calc-icon.png"  gap:platfrom = "android" gap:qualifier ="hdpi" />
+    <icon src="imgs/calc-icon.png"  gap:platfrom = "android" gap:qualifier ="xhdpi" />    
+    
+    <icon src="imgs/calc-icon.png"  gap:platfrom = "ios" width="57" height="57" />
+    <icon src="imgs/calc-icon.png"  gap:platfrom = "ios" width="72" height="72" />
+    <icon src="imgs/calc-icon.png"  gap:platfrom = "ios" width="114" height="114" />
+
+<!-- Define app splash screen for each platform -->
+    <gap:splash src="imgs/calc-splash.jpg" gap:platform="android" gap:qualifier="port-ldpi"/>
+    <gap:splash src="imgs/calc-splash.jpg" gap:platform="android" gap:qualifier="port-mdpi"/>
+    <gap:splash src="imgs/calc-splash.jpg" gap:platform="android" gap:qualifier="port-hdpi"/>
+    <gap:splash src="imgs/calc-splash.jpg" gap:platform="android" gap:qualifier="port-xhdpi"/>
+    
+    <gap:splash src="imgs/calc-splash.jpg" gap:platform="ios" width="320" height="480"/>
+    <gap:splash src="imgs/calc-splash.jpg" gap:platform="ios" width="640" height="960"/>
+    <gap:splash src="imgs/calc-splash.jpg" gap:platform="ios" width="640" height="1136"/>
+    <gap:splash src="imgs/calc-splash.jpg" gap:platform="ios" width="768" height="1024"/>
+    <gap:splash src="imgs/calc-splash.jpg" gap:platform="ios" width="1024" height="768"/>
+    
+</widget>

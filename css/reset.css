@@ -1,0 +1,40 @@
+/*
+   Author: Akram Taghavi-Burris
+   Author Website: www.getcreativetoday.com
+ 
+   File Name: rest.css
+ 
+   BASED ON: HTML5 Reset Stylesheet by Richard Clark
+  (http://html5doctor.com/html-5-reset-stylesheet/)
+ 
+   Created: June 10, 2014
+   Last Updated: June 15, 2014
+*/
+
+/*==================== THE RESET ====================*/
+/* this file resets any browser default styles for the following html elements 
+   this file must be loaded first, otherwise it will reset styles from your other css files */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+details, embed,  figure, figcaption, footer, header,menu, nav,
+output, ruby, section, summary, time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+}
+ 
+body { line-height: 1; }
+
+/*==================== HTML5 STRUCTURAL ELEMENTS ====================*/
+/* Older browsers need to be told how to display HTML5 structural elements*/
+
+header, nav, main, aside, article, figure, figcaption, section, footer{
+    display:block;
+}
